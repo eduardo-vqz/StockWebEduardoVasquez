@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eduar\\Documents\\proyectos\\Cass\\stockElectrodomesticos\\StockWebEduardoVasquez\\StockWebEduardoVasquez.csproj": {}
+    "C:\\Users\\eduar\\Desktop\\proyectos\\Cass\\stockElectrodomesticos\\StockWebEduardoVasquez\\StockWebEduardoVasquez.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eduar\\Documents\\proyectos\\Cass\\stockElectrodomesticos\\StockWebEduardoVasquez\\StockWebEduardoVasquez.csproj": {
+    "C:\\Users\\eduar\\Desktop\\proyectos\\Cass\\stockElectrodomesticos\\StockWebEduardoVasquez\\StockWebEduardoVasquez.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eduar\\Documents\\proyectos\\Cass\\stockElectrodomesticos\\StockWebEduardoVasquez\\StockWebEduardoVasquez.csproj",
+        "projectUniqueName": "C:\\Users\\eduar\\Desktop\\proyectos\\Cass\\stockElectrodomesticos\\StockWebEduardoVasquez\\StockWebEduardoVasquez.csproj",
         "projectName": "StockWebEduardoVasquez",
-        "projectPath": "C:\\Users\\eduar\\Documents\\proyectos\\Cass\\stockElectrodomesticos\\StockWebEduardoVasquez\\StockWebEduardoVasquez.csproj",
+        "projectPath": "C:\\Users\\eduar\\Desktop\\proyectos\\Cass\\stockElectrodomesticos\\StockWebEduardoVasquez\\StockWebEduardoVasquez.csproj",
         "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eduar\\Documents\\proyectos\\Cass\\stockElectrodomesticos\\StockWebEduardoVasquez\\obj\\",
+        "outputPath": "C:\\Users\\eduar\\Desktop\\proyectos\\Cass\\stockElectrodomesticos\\StockWebEduardoVasquez\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
