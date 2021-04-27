@@ -8,10 +8,10 @@ namespace StockWebEduardoVasquez.Modelo
     {
         private int id;
         private string nombre_electrodomestico;
-        private Categrorias categorias;
+        private Categorias categorias;
         private bool habilitar_electrodomestico;
 
-        public Electrodomesticos(int id, string nombre_electrodomestico, Categrorias categorias, bool habilitar_electrodomestico)
+        public Electrodomesticos(int id, string nombre_electrodomestico, Categorias categorias, bool habilitar_electrodomestico)
         {
             this.id = id;
             this.nombre_electrodomestico = nombre_electrodomestico;
@@ -22,6 +22,6 @@ namespace StockWebEduardoVasquez.Modelo
         public int Id { get => id; set => id = value; }
         public string Nombre_electrodomestico { get => nombre_electrodomestico; set => nombre_electrodomestico = value; }
         public bool Habilitar_electrodomestico { get => habilitar_electrodomestico; set => habilitar_electrodomestico = value; }
-        internal Categrorias Categorias { get => categorias; set => categorias = value; }
+        internal Categorias Categorias { get => categorias; set => categorias = value; }
     }
 }

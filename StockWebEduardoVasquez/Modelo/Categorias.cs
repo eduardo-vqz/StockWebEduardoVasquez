@@ -4,13 +4,17 @@ using System.Text;
 
 namespace StockWebEduardoVasquez.Modelo
 {
-    class Categrorias
+    class Categorias
     {
         private int id;
         private string categoria;
         private bool habilitar_categoria;
 
-        public Categrorias(int id, string categoria, bool habilitar_categoria)
+        public Categorias()
+        {
+        }
+
+        public Categorias(int id, string categoria, bool habilitar_categoria)
         {
             this.id = id;
             this.categoria = categoria;

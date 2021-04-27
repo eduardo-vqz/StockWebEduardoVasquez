@@ -7,10 +7,10 @@ namespace StockWebEduardoVasquez.Dao
 {
     interface DaoCategorias
     {
-        void AddCategoria(Categrorias caterias);
-        void UpdateCategoria(Categrorias caterias);
-        void DeleteCategoria(Categrorias caterias);
+        void AddCategoria(Categorias catergoria);
+        void UpdateCategoria(Categorias catergoria);
+        void DeleteCategoria(Categorias catergoria);
 
-        List<Categrorias> allCategorias();
+        List<Categorias> allCategorias();
     }
 }
