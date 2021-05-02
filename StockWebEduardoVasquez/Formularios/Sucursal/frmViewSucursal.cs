@@ -63,14 +63,14 @@ namespace StockWebEduardoVasquez.Formularios.Sucursal
         private void eliminarSucursal()
         {
             DialogResult result = MessageBox.Show(
-                "Desea eliminar la categoria " + validation.ExtraerNameFila(dgvSucursales),
+                "Desea eliminar la categoria " + validation.ExtraerDataString(dgvSucursales, 1),
                 "Eliminar",
                 MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
                 try
                 {
-                    sucursales.Id = validation.ExtraerIndexFila(dgvSucursales);
+                    sucursales.Id = validation.ExtraerDataInt(dgvSucursales, 0);
                     daoSucursalesImp.DeleteSucursal(sucursales);
                     mostrar();
                 }
@@ -89,7 +89,7 @@ namespace StockWebEduardoVasquez.Formularios.Sucursal
                 error = true;
                 MessageBox.Show("No se ha seleccionado ningun item");
             }
-            if (validation.ExtraerNameFila(dgvSucursales).Trim().Equals(""))
+            if (validation.ExtraerDataString(dgvSucursales,1).Trim().Equals(""))
             {
                 error = true;
                 MessageBox.Show("No se ha seleccionado ningun item");
@@ -100,18 +100,12 @@ namespace StockWebEduardoVasquez.Formularios.Sucursal
 
         private void sendDataUpdate()
         {
-            MessageBox.Show(validation.ExtraerIndexFila(dgvSucursales).ToString());
-            MessageBox.Show(validation.ExtraerNameFila(dgvSucursales));
-            MessageBox.Show(dgvSucursales[2, dgvSucursales.CurrentRow.Index].Value.ToString());
-            MessageBox.Show(dgvSucursales[3, dgvSucursales.CurrentRow.Index].Value.ToString());
-            MessageBox.Show(dgvSucursales[4, dgvSucursales.CurrentRow.Index].Value.ToString());
-
             frmUpdateSucursal frm_updateSucursal = new frmUpdateSucursal();
-            frm_updateSucursal.indice     = validation.ExtraerIndexFila(dgvSucursales);
-            frm_updateSucursal.sucursal_n = validation.ExtraerNameFila(dgvSucursales);
-            frm_updateSucursal.direccion  = dgvSucursales[2, dgvSucursales.CurrentRow.Index].Value.ToString();
-            frm_updateSucursal.telefono   = dgvSucursales[3, dgvSucursales.CurrentRow.Index].Value.ToString();
-            frm_updateSucursal.habilitado = Convert.ToBoolean(dgvSucursales[4, dgvSucursales.CurrentRow.Index].Value.ToString());
+            frm_updateSucursal.indice     = validation.ExtraerDataInt(dgvSucursales, 0);
+            frm_updateSucursal.sucursal_n = validation.ExtraerDataString(dgvSucursales, 1);
+            frm_updateSucursal.direccion  = validation.ExtraerDataString(dgvSucursales, 2);
+            frm_updateSucursal.telefono   = validation.ExtraerDataString(dgvSucursales, 3);
+            frm_updateSucursal.habilitado = validation.ExtraerDataBool(dgvSucursales, 4);
 
             frm_updateSucursal.Show();
         }

@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 
 using StockWebEduardoVasquez.Dao;
@@ -48,7 +43,7 @@ namespace StockWebEduardoVasquez.Formularios.Sucursal
                 try
                 {
                     sucursal.Sucursal           = txtSucursal.Text.Trim();
-                    sucursal.Direccion          = txtTelefono.Text.Trim();
+                    sucursal.Direccion          = txtDireccion.Text.Trim();
                     sucursal.Telefono           = txtTelefono.Text.Trim();
                     sucursal.Habilitar_sucursal = validation.CheckHabilitado(cbxHabilitar);
                     sucursal.Id                 = indice;

@@ -9,7 +9,6 @@ namespace StockWebEduardoVasquez.LibsBD
     {
 
         private bool bandera;
-
         public bool Bandera { get => bandera; set => bandera = value; }
 
         public bool ValidaTextBox(TextBox textBox, string mensaje)
@@ -39,17 +38,29 @@ namespace StockWebEduardoVasquez.LibsBD
             return Bandera;
         }
 
-        public string ExtraerNameFila(DataGridView dataGridView)
+        
+
+        /*
+        FUNCIONES PARA EXTRAER LOS DATOS DEL DATA GRID VIEW SEGÚN SU TIPO DE DATO
+        STRING, INT, BOOL
+        */
+        public bool ExtraerDataBool(DataGridView dataGridView, int indice)
         {
-            string fila = dataGridView[1, dataGridView.CurrentRow.Index].Value.ToString();
-            return fila;
+            bool dato = Convert.ToBoolean(dataGridView[indice, dataGridView.CurrentRow.Index].Value.ToString());
+            return dato;
         }
 
-        public int ExtraerIndexFila(DataGridView dataGridView)
+        public int ExtraerDataInt(DataGridView dataGridView, int indice)
         {
-            int indice = Convert.ToInt32(dataGridView[0, dataGridView.CurrentRow.Index].Value.ToString());
-            return indice;
+            int dato = Convert.ToInt32(dataGridView[indice, dataGridView.CurrentRow.Index].Value.ToString());
+            return dato;
         }
 
+        public string ExtraerDataString(DataGridView dataGridView, int indice)
+        {
+            
+            string dato = dataGridView[indice, dataGridView.CurrentRow.Index].Value.ToString();
+            return dato;
+        }
     }
 }
