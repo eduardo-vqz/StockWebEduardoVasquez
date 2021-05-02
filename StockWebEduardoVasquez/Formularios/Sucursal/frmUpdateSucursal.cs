@@ -31,7 +31,6 @@ namespace StockWebEduardoVasquez.Formularios.Sucursal
 
         private void frmUpdateSucursal_Load(object sender, EventArgs e)
         {
-            MessageBox.Show(sucursal_n);
             txtSucursal.Text = sucursal_n;
             txtDireccion.Text = direccion;
             txtTelefono.Text = telefono;
