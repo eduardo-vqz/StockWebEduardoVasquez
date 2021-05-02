@@ -42,7 +42,7 @@ namespace StockWebEduardoVasquez.LibsBD
                 }
                 catch (SqlException e)
                 {
-                    MessageBox.Show("Error al intenter conectarse a la base de datos");
+                    MessageBox.Show("Error al intenter conectarse a la base de datos" + e);
                 }
             }
         }

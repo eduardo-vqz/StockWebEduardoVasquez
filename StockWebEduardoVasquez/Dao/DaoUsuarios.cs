@@ -14,6 +14,7 @@ namespace StockWebEduardoVasquez.Dao
         void DeleteUser(Usuarios usuarios);
 
         List<Usuarios> allUser();
+        List<Usuarios> allUser(string user);
 
     }
 }

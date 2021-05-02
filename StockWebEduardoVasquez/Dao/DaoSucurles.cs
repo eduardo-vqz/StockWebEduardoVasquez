@@ -13,6 +13,7 @@ namespace StockWebEduardoVasquez.Dao
         void DeleteSucursal(Sucursales sucursales);
 
         List<Sucursales> allSucursales();
+        List<Sucursales> allSucursales(string sucursal);
 
     }
 }

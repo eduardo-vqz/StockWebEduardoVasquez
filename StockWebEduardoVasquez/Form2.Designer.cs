@@ -55,6 +55,7 @@ namespace StockWebEduardoVasquez
             this.btnSucursales.TabIndex = 1;
             this.btnSucursales.Text = "Sucursales";
             this.btnSucursales.UseVisualStyleBackColor = true;
+            this.btnSucursales.Click += new System.EventHandler(this.btnSucursales_Click);
             // 
             // btnUsuarios
             // 

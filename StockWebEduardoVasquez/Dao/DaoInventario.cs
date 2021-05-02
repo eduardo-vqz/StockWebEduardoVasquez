@@ -12,5 +12,7 @@ namespace StockWebEduardoVasquez.Dao
         void DeleteCategoria(Inventario inventario);
 
         List<Inventario> allInventario();
+        List<Inventario> allInventario(string Inventario);
+        
     }
 }

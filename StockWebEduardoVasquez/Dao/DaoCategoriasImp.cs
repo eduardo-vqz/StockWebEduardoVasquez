@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+
 using System.Data;
 using System.Data.SqlClient;
+using System.Windows.Forms;
+
 using StockWebEduardoVasquez.LibsBD;
 using StockWebEduardoVasquez.Modelo;
-using System.Data.SqlClient;
-using System.Windows.Forms;
+
+
 
 namespace StockWebEduardoVasquez.Dao
 {
@@ -54,7 +57,7 @@ namespace StockWebEduardoVasquez.Dao
                     Categorias categorias = new Categorias();
                     categorias.Id = reader.GetInt32("id");
                     categorias.Categoria = reader.GetString("categoria");
-                    categorias.Habilitar_categoria = reader.GetBoolean("habilitar_categoria");
+                    categorias.Habilitar_categoria = reader.GetBoolean("Habilitar_categoria");
 
                     listCategorias.Add(categorias);
                 }
@@ -68,6 +71,11 @@ namespace StockWebEduardoVasquez.Dao
                 CloseBd();
             }
             return listCategorias;
+        }
+
+        public List<Categorias> allCategorias(string categoria)
+        {
+            throw new NotImplementedException();
         }
 
         public void DeleteCategoria(Categorias catergoria)

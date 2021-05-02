@@ -8,6 +8,7 @@ using System.Windows.Forms;
 
 using StockWebEduardoVasquez.Dao;
 using StockWebEduardoVasquez.Modelo;
+using StockWebEduardoVasquez.LibsBD;
 
 namespace StockWebEduardoVasquez.Formularios.Categrorias
 {
@@ -16,6 +17,8 @@ namespace StockWebEduardoVasquez.Formularios.Categrorias
         // Inicializamos las clases
         DaoCategoriasImp daoCategoria = new DaoCategoriasImp();
         Categorias categorias = new Categorias();
+        Validation validation = new Validation();
+        
         public AddCategoria()
         {
             InitializeComponent();
@@ -37,12 +40,11 @@ namespace StockWebEduardoVasquez.Formularios.Categrorias
         private Boolean validaError()
         {
             bool error = false;
-            if (txtCategoria.Text.Trim().Equals(""))
+
+            if (validation.ValidaTextBox(txtCategoria, " categoria "))
             {
                 error = true;
-                MessageBox.Show("El campo categoria es requerido");
-                txtCategoria.Clear();
-                txtCategoria.Focus();
+
             }
 
             return error;
@@ -75,6 +77,11 @@ namespace StockWebEduardoVasquez.Formularios.Categrorias
             {
                 MessageBox.Show("El error es " + ex);
             }
+        }
+
+        private void AddCategoria_Load(object sender, EventArgs e)
+        {
+
         }
     }   
 

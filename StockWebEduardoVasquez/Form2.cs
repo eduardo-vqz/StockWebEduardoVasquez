@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using StockWebEduardoVasquez.Formularios.Categrorias;
+using StockWebEduardoVasquez.Formularios.Sucursal;
 
 namespace StockWebEduardoVasquez
 {
@@ -20,6 +21,12 @@ namespace StockWebEduardoVasquez
         {
             frmViewCategorias view_categorias = new frmViewCategorias();
             view_categorias.Show();
+        }
+
+        private void btnSucursales_Click(object sender, EventArgs e)
+        {
+            frmViewSucursal frm_ViewSucursal = new frmViewSucursal();
+            frm_ViewSucursal.Show();
         }
     }
 }

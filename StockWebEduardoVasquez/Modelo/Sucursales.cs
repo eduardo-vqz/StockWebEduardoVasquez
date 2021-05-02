@@ -12,6 +12,10 @@ namespace StockWebEduardoVasquez.Modelo
         private string telefono;
         private bool habilitar_sucursal;
 
+        public Sucursales()
+        {
+        }
+
         public Sucursales(int id, string sucursal, string direccion, string telefono, bool habilitar_sucursal)
         {
             this.id = id;

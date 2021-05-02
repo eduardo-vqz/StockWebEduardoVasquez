@@ -27,7 +27,6 @@ namespace StockWebEduardoVasquez.Formularios.Categrorias
 
         private void frmCategoriaUpdate_Load(object sender, EventArgs e)
         {
-            MessageBox.Show(habilitado.ToString());
             txtCategoria.Text = categoria;
             if (habilitado)
             {

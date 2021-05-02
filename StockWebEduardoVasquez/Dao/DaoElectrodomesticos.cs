@@ -12,7 +12,8 @@ namespace StockWebEduardoVasquez.Dao
         void UpdateCategoria(Electrodomesticos electrodomesticos);
         void DeleteCategoria(Electrodomesticos electrodomesticos);
 
-        List<Electrodomesticos> allCategorias();
+        List<Electrodomesticos> allElectrodomesticos();
+        List<Electrodomesticos> allElectrodomesticos(string electrodomestico);
 
     }
 }

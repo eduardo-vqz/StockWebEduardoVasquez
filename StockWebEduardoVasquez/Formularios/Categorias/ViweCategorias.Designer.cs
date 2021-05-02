@@ -46,8 +46,9 @@ namespace StockWebEduardoVasquez.Formularios.Categrorias
             this.dgvCategorias.Name = "dgvCategorias";
             this.dgvCategorias.ReadOnly = true;
             this.dgvCategorias.RowTemplate.Height = 25;
-            this.dgvCategorias.Size = new System.Drawing.Size(297, 279);
+            this.dgvCategorias.Size = new System.Drawing.Size(350, 279);
             this.dgvCategorias.TabIndex = 0;
+            this.dgvCategorias.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCategorias_CellContentClick);
             // 
             // btnAddCategoria
             // 
@@ -87,6 +88,7 @@ namespace StockWebEduardoVasquez.Formularios.Categrorias
             this.button3.TabIndex = 4;
             this.button3.Text = "Agregar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // frmViewCategorias
             // 

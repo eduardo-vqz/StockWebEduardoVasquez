@@ -12,5 +12,6 @@ namespace StockWebEduardoVasquez.Dao
         void DeleteCategoria(Categorias catergoria);
 
         List<Categorias> allCategorias();
+        List<Categorias> allCategorias(string categoria);
     }
 }

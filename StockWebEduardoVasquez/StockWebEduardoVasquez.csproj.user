@@ -16,5 +16,32 @@
     <Compile Update="Formularios\Categorias\ViweCategorias.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Formularios\Electrodomesticos\frmAddElectrodomestico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Electrodomesticos\frmUpdateElectrodomestico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Electrodomesticos\fromViewElectrodomestico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Sucursal\frmAddSucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Sucursal\frmUpdateSucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Sucursal\frmViewSucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Usuarios\frmAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Usuarios\frmUpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Usuarios\frmViewUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

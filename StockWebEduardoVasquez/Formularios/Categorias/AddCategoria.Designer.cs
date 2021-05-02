@@ -83,6 +83,7 @@ namespace StockWebEduardoVasquez.Formularios.Categrorias
             this.Controls.Add(this.btnAgregar);
             this.Name = "AddCategoria";
             this.Text = "AddCategoria";
+            this.Load += new System.EventHandler(this.AddCategoria_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -40,6 +40,7 @@ namespace StockWebEduardoVasquez.Formularios.Categrorias
         {
             dgvCategorias.Columns.Clear();
             dgvCategorias.DataSource = daoCategoriasImp.allCategorias();
+            
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -55,6 +56,7 @@ namespace StockWebEduardoVasquez.Formularios.Categrorias
         private void eliminarCategoria()
         {
             string value = dgvCategorias[1, dgvCategorias.CurrentRow.Index].Value.ToString();
+            MessageBox.Show(value);
             DialogResult result = MessageBox.Show("Desea eliminar la categoria " + value, "Eliminar", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
@@ -94,7 +96,9 @@ namespace StockWebEduardoVasquez.Formularios.Categrorias
             fila = dgvCategorias[0, dgvCategorias.CurrentRow.Index].Value.ToString();
             if (!validaError())
             {
+                
                 envioDatosUpdate();
+                Close();
             }
         }
 
@@ -106,6 +110,16 @@ namespace StockWebEduardoVasquez.Formularios.Categrorias
             categoriaUpdate.habilitado = Convert.ToBoolean(dgvCategorias[2, dgvCategorias.CurrentRow.Index].Value.ToString());
 
             categoriaUpdate.Show();
+        }
+
+        private void dgvCategorias_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 
