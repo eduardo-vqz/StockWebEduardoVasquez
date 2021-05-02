@@ -77,3 +77,7 @@ CONSTRAINT fk_sucursal_electrodomestico_inventario
 	REFERENCES sucursal_electrodomestico(id)
 )
 GO
+
+
+--RENOMBRAR LA COLUMNA apllido por apellidos en la tabla usuarios
+EXEC sp_rename 'usuarios.apllidos', 'apellidos', 'COLUMN';

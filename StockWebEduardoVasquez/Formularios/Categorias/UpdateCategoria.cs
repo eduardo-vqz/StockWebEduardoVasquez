@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+
 using StockWebEduardoVasquez.Dao;
 using StockWebEduardoVasquez.Modelo;
 

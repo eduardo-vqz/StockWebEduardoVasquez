@@ -7,6 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using StockWebEduardoVasquez.Formularios.Categrorias;
 using StockWebEduardoVasquez.Formularios.Sucursal;
+using StockWebEduardoVasquez.Formularios.Usuario;
 
 namespace StockWebEduardoVasquez
 {
@@ -27,6 +28,12 @@ namespace StockWebEduardoVasquez
         {
             frmViewSucursal frm_ViewSucursal = new frmViewSucursal();
             frm_ViewSucursal.Show();
+        }
+
+        private void btnUsuarios_Click(object sender, EventArgs e)
+        {
+            frmViewUsuario frm_ViewUsuario = new frmViewUsuario();
+            frm_ViewUsuario.Show();
         }
     }
 }

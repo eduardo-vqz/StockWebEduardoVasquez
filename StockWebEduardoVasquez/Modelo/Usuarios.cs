@@ -12,6 +12,10 @@ namespace StockWebEduardoVasquez.Modelo
         private string usuario;
         private string pw;
 
+        public Usuarios()
+        {
+        }
+
         public Usuarios(int id, string nombre, string apellidos, string usuario, string pw)
         {
             this.id = id;
