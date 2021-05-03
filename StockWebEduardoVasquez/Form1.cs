@@ -24,8 +24,11 @@ namespace StockWebEduardoVasquez
 
         private void btnConectar_Click(object sender, EventArgs e)
         {
-            Cnn cnn = new Cnn();
-            cnn.openBd();
+            /* Cnn cnn = new Cnn();
+             cnn.openBd();*/
+
+            frmMenu menu = new frmMenu();
+            menu.Show();
         }
     }
 }

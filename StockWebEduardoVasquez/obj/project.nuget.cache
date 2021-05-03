@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ze1PG8c/NKsaTNk7RwUwl9sftxHojfPMxXR6v78y0pwHpW50OCmsYEu9SNN1JgTGV4nqHnDWDnXwxwR/74eyHA==",
+  "dgSpecHash": "597v305zu83t931Pl8iIDLMWOtuT39aqTtGTvRIrZV5Pe5qcrbjG51GR4Luecm/WwbYWEpPgLD9WDGouRFfd6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\eduar\\Documents\\proyectos\\Cass\\stockElectrodomesticos\\StockWebEduardoVasquez\\StockWebEduardoVasquez.csproj",
+  "projectFilePath": "C:\\Users\\eduar\\Desktop\\proyectos\\Cass\\stockElectrodomesticos\\StockWebEduardoVasquez\\StockWebEduardoVasquez.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eduar\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\eduar\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

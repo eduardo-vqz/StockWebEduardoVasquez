@@ -12,7 +12,7 @@ namespace StockWebEduardoVasquez.LibsBD
         private string DbName            = "inventario";
         private bool   BanderaConnection = false;
 
-        public  SqlConnection openBd()
+        public  SqlConnection openDb()
         {
             
             try
@@ -22,9 +22,9 @@ namespace StockWebEduardoVasquez.LibsBD
                 Coneccion.ConnectionString = cadenaConeccion;
                 Coneccion.Open();
                 BanderaConnection = true;
-                MessageBox.Show("Conectado");
+                //MessageBox.Show("Conectado");
             }
-            catch(SqlException e)
+            catch (SqlException e)
             {
                 MessageBox.Show("Error al intenter conectarse a la base de datos" + e);
             }
@@ -42,7 +42,7 @@ namespace StockWebEduardoVasquez.LibsBD
                 }
                 catch (SqlException e)
                 {
-                    MessageBox.Show("Error al intenter conectarse a la base de datos");
+                    MessageBox.Show("Error al intenter conectarse a la base de datos" + e);
                 }
             }
         }

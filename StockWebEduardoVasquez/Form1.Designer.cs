@@ -36,9 +36,9 @@ namespace StockWebEduardoVasquez
             // 
             this.btnConectar.Location = new System.Drawing.Point(243, 177);
             this.btnConectar.Name = "btnConectar";
-            this.btnConectar.Size = new System.Drawing.Size(75, 23);
+            this.btnConectar.Size = new System.Drawing.Size(113, 70);
             this.btnConectar.TabIndex = 0;
-            this.btnConectar.Text = "button1";
+            this.btnConectar.Text = "Entrar";
             this.btnConectar.UseVisualStyleBackColor = true;
             this.btnConectar.Click += new System.EventHandler(this.btnConectar_Click);
             // 
