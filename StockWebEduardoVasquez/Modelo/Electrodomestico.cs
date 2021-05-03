@@ -4,14 +4,19 @@ using System.Text;
 
 namespace StockWebEduardoVasquez.Modelo
 {
-    class Electrodomesticos
+    class Electrodomestico
     {
         private int id;
         private string nombre_electrodomestico;
         private Categorias categorias;
         private bool habilitar_electrodomestico;
 
-        public Electrodomesticos(int id, string nombre_electrodomestico, Categorias categorias, bool habilitar_electrodomestico)
+        public Electrodomestico()
+        {
+            categorias = new Categorias();
+        }
+
+        public Electrodomestico(int id, string nombre_electrodomestico, Categorias categorias, bool habilitar_electrodomestico)
         {
             this.id = id;
             this.nombre_electrodomestico = nombre_electrodomestico;

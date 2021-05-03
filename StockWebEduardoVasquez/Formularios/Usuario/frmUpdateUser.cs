@@ -80,7 +80,6 @@ namespace StockWebEduardoVasquez.Formularios.Usuario
             {
                 error = true;
             }
-            
 
             return error;
         }

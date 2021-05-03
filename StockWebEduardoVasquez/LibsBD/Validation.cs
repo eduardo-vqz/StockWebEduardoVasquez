@@ -62,5 +62,18 @@ namespace StockWebEduardoVasquez.LibsBD
             string dato = dataGridView[indice, dataGridView.CurrentRow.Index].Value.ToString();
             return dato;
         }
+
+        /*LLENADO Y EXTRACCION DE INDICE DE COMBOBOX*/
+        public void LlenarComboBox(ComboBox comboBox, string indice, string nombre, object obj)
+        {
+            comboBox.ValueMember = indice;
+            comboBox.DisplayMember = nombre;
+            comboBox.DataSource = obj;
+        }
+
+        public int ExtraerIndiceComboBox(ComboBox comboBox)
+        {
+            return Convert.ToInt32(comboBox.SelectedValue);
+        }
     }
 }

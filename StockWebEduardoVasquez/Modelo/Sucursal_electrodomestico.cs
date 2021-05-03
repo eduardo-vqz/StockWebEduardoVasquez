@@ -8,10 +8,16 @@ namespace StockWebEduardoVasquez.Modelo
     {
         private int id;
         private Sucursales sucursales;
-        private Electrodomesticos electrodomesticos;
+        private Electrodomestico electrodomesticos;
         private int cantidad;
 
-        public Sucursal_electrodomestico(int id, Sucursales sucursales, Electrodomesticos electrodomesticos, int cantidad)
+        public Sucursal_electrodomestico()
+        {
+            sucursales = new Sucursales();
+            electrodomesticos = new Electrodomestico();
+        }
+
+        public Sucursal_electrodomestico(int id, Sucursales sucursales, Electrodomestico electrodomesticos, int cantidad)
         {
             this.id = id;
             this.sucursales = sucursales;
@@ -22,6 +28,6 @@ namespace StockWebEduardoVasquez.Modelo
         public int Id { get => id; set => id = value; }
         public int Cantidad { get => cantidad; set => cantidad = value; }
         internal Sucursales Sucursales { get => sucursales; set => sucursales = value; }
-        internal Electrodomesticos Electrodomesticos { get => electrodomesticos; set => electrodomesticos = value; }
+        internal Electrodomestico Electrodomesticos { get => electrodomesticos; set => electrodomesticos = value; }
     }
 }

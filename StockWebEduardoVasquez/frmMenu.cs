@@ -8,12 +8,13 @@ using System.Windows.Forms;
 using StockWebEduardoVasquez.Formularios.Categrorias;
 using StockWebEduardoVasquez.Formularios.Sucursal;
 using StockWebEduardoVasquez.Formularios.Usuario;
+using StockWebEduardoVasquez.Formularios.Electrodomesticos;
 
 namespace StockWebEduardoVasquez
 {
-    public partial class Form2 : Form
+    public partial class frmMenu : Form
     {
-        public Form2()
+        public frmMenu()
         {
             InitializeComponent();
         }
@@ -34,6 +35,17 @@ namespace StockWebEduardoVasquez
         {
             frmViewUsuario frm_ViewUsuario = new frmViewUsuario();
             frm_ViewUsuario.Show();
+        }
+
+        private void frmMenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnElectrodomestico_Click(object sender, EventArgs e)
+        {
+            frmViewElectrodomestico frm_viewElectrodomestico = new frmViewElectrodomestico();
+            frm_viewElectrodomestico.Show();
         }
     }
 }

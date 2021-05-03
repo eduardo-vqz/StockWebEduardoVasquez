@@ -11,6 +11,11 @@ namespace StockWebEduardoVasquez.Modelo
         private int cantidad_movimiento;
         private string movimiento;
 
+        public Inventario()
+        {
+            sucursal_electrodomestico = new Sucursal_electrodomestico();
+        }
+
         public Inventario(int id, Sucursal_electrodomestico sucursal_electrodomestico, int cantidad_movimiento, string movimiento)
         {
             this.id = id;

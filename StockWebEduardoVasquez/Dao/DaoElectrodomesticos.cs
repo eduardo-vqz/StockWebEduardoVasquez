@@ -8,12 +8,12 @@ namespace StockWebEduardoVasquez.Dao
 {
     interface DaoElectrodomesticos
     {
-        void AddCategoria(Electrodomesticos electrodomesticos);
-        void UpdateCategoria(Electrodomesticos electrodomesticos);
-        void DeleteCategoria(Electrodomesticos electrodomesticos);
+        void AddElectrodomestico(Electrodomestico electrodomestico);
+        void UpdateElectrodomestico(Electrodomestico electrodomestico);
+        void DeleteElectrodomestico(Electrodomestico electrodomestico);
 
-        List<Electrodomesticos> allElectrodomesticos();
-        List<Electrodomesticos> allElectrodomesticos(string electrodomestico);
+        List<Electrodomestico> allElectrodomesticos();
+        List<Electrodomestico> allElectrodomesticos(string electrodomestico);
 
     }
 }

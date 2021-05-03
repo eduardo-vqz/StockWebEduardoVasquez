@@ -27,7 +27,7 @@ namespace StockWebEduardoVasquez
             /* Cnn cnn = new Cnn();
              cnn.openBd();*/
 
-            Form2 menu = new Form2();
+            frmMenu menu = new frmMenu();
             menu.Show();
         }
     }

@@ -72,39 +72,5 @@ namespace StockWebEduardoVasquez.Formularios.Sucursal
             return error;
         }
 
-        private void txtDireccion_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtTelefono_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtSucursal_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cbxHabilitar_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

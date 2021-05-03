@@ -57,7 +57,6 @@ namespace StockWebEduardoVasquez.Formularios.Sucursal
             this.label1.Size = new System.Drawing.Size(51, 15);
             this.label1.TabIndex = 2;
             this.label1.Text = "Sucursal";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtSucursal
             // 
@@ -65,7 +64,6 @@ namespace StockWebEduardoVasquez.Formularios.Sucursal
             this.txtSucursal.Name = "txtSucursal";
             this.txtSucursal.Size = new System.Drawing.Size(295, 23);
             this.txtSucursal.TabIndex = 3;
-            this.txtSucursal.TextChanged += new System.EventHandler(this.txtSucursal_TextChanged);
             // 
             // txtTelefono
             // 
@@ -73,7 +71,6 @@ namespace StockWebEduardoVasquez.Formularios.Sucursal
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(295, 23);
             this.txtTelefono.TabIndex = 5;
-            this.txtTelefono.TextChanged += new System.EventHandler(this.txtTelefono_TextChanged);
             // 
             // label2
             // 
@@ -83,7 +80,6 @@ namespace StockWebEduardoVasquez.Formularios.Sucursal
             this.label2.Size = new System.Drawing.Size(52, 15);
             this.label2.TabIndex = 4;
             this.label2.Text = "Telefono";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtDireccion
             // 
@@ -91,7 +87,6 @@ namespace StockWebEduardoVasquez.Formularios.Sucursal
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(295, 23);
             this.txtDireccion.TabIndex = 7;
-            this.txtDireccion.TextChanged += new System.EventHandler(this.txtDireccion_TextChanged);
             // 
             // label3
             // 
@@ -101,7 +96,6 @@ namespace StockWebEduardoVasquez.Formularios.Sucursal
             this.label3.Size = new System.Drawing.Size(57, 15);
             this.label3.TabIndex = 6;
             this.label3.Text = "Direccion";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // cbxHabilitar
             // 
@@ -113,7 +107,6 @@ namespace StockWebEduardoVasquez.Formularios.Sucursal
             this.cbxHabilitar.TabIndex = 8;
             this.cbxHabilitar.Text = "Habilitar";
             this.cbxHabilitar.UseVisualStyleBackColor = true;
-            this.cbxHabilitar.CheckedChanged += new System.EventHandler(this.cbxHabilitar_CheckedChanged);
             // 
             // frmAddSucursal
             // 

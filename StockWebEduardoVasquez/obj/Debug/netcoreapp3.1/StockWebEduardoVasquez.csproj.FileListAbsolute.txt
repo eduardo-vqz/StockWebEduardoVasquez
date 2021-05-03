@@ -34,7 +34,6 @@ C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasq
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.csprojAssemblyReference.cache
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Form1.resources
-C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Form2.resources
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.csproj.GenerateResource.cache
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.AssemblyInfoInputs.cache
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.AssemblyInfo.cs
@@ -48,10 +47,11 @@ C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasq
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Formularios.Categrorias.frmCategoriaUpdate.resources
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Formularios.Electrodomesticos.frmAddElectrodomestico.resources
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Formularios.Electrodomesticos.frmUpdateElectrodomestico.resources
-C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Formularios.Electrodomesticos.fromViewElectrodomestico.resources
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Formularios.Sucursal.frmAddSucursal.resources
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Formularios.Sucursal.frmUpdateSucursal.resources
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Formularios.Sucursal.frmViewSucursal.resources
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Formularios.Usuario.frmViewUsuario.resources
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Formularios.Usuario.frmAddUser.resources
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Formularios.Usuario.frmUpdateUser.resources
+C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.frmMenu.resources
+C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Formularios.Electrodomesticos.frmViewElectrodomestico.resources
