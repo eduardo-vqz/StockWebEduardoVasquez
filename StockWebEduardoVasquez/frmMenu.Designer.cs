@@ -85,6 +85,7 @@ namespace StockWebEduardoVasquez
             this.btnSucursalElectrodomestico.TabIndex = 4;
             this.btnSucursalElectrodomestico.Text = "Sucursal Electrodomestico";
             this.btnSucursalElectrodomestico.UseVisualStyleBackColor = true;
+            this.btnSucursalElectrodomestico.Click += new System.EventHandler(this.btnSucursalElectrodomestico_Click);
             // 
             // btnInventario
             // 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
@@ -70,9 +71,21 @@ namespace StockWebEduardoVasquez.Formularios.Electrodomesticos
 
         private void mostrar()
         {
-            dgvElectrodomesticos.AutoResizeColumns();
             dgvElectrodomesticos.Columns.Clear();
             dgvElectrodomesticos.DataSource = daoElectrodomesticosImp.allElectrodomesticos();
+            /*var lol = new List<Electrodomestico>();
+            
+            lol = daoElectrodomesticosImp.allElectrodomesticos();
+            int n = lol.Count;
+            for (int i = 0; i < n - 1; i++)
+            {
+                object[] lista = { lol[i].Id.ToString(), lol[i].Nombre_electrodomestico.ToString(), lol[i].Categorias.Categoria.ToString(), lol[i].Habilitar_electrodomestico.ToString() };
+                dgvElectrodomesticos.Rows.Insert((int)lista[0]);
+                //MessageBox.Show(lol[i].Categorias.Categoria);
+            }*/
+                 
+
+
         }
 
         private bool validaError(){
@@ -117,8 +130,8 @@ namespace StockWebEduardoVasquez.Formularios.Electrodomesticos
             frmUpdateElectrodomestico frm_updateElectrodomestico = new frmUpdateElectrodomestico();
             frm_updateElectrodomestico.indice = validation.ExtraerDataInt(dgvElectrodomesticos, 0);
             frm_updateElectrodomestico.electrodomestico_name = validation.ExtraerDataString(dgvElectrodomesticos, 1);
-            //frm_updateElectrodomestico.categoria = validation.ExtraerDataString(dgvElectrodomesticos, 2);
-            frm_updateElectrodomestico.habilitado = validation.ExtraerDataBool(dgvElectrodomesticos, 2);
+            frm_updateElectrodomestico.categoria = validation.ExtraerDataString(dgvElectrodomesticos, 2);
+            frm_updateElectrodomestico.habilitado = validation.ExtraerDataBool(dgvElectrodomesticos, 3);
 
             frm_updateElectrodomestico.Show();
             Close();

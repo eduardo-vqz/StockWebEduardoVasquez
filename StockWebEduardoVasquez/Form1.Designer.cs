@@ -34,7 +34,7 @@ namespace StockWebEduardoVasquez
             // 
             // btnConectar
             // 
-            this.btnConectar.Location = new System.Drawing.Point(243, 177);
+            this.btnConectar.Location = new System.Drawing.Point(188, 145);
             this.btnConectar.Name = "btnConectar";
             this.btnConectar.Size = new System.Drawing.Size(113, 70);
             this.btnConectar.TabIndex = 0;
@@ -46,7 +46,7 @@ namespace StockWebEduardoVasquez
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(543, 419);
             this.Controls.Add(this.btnConectar);
             this.Name = "Form1";
             this.Text = "Form1";

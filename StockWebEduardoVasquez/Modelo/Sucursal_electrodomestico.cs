@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace StockWebEduardoVasquez.Modelo
 {
-    class Sucursal_electrodomestico
+    [DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
+    public class Sucursal_electrodomestico
     {
         private int id;
         private Sucursales sucursales;
-        private Electrodomestico electrodomesticos;
         private int cantidad;
-
+        private Electrodomestico electrodomesticos;
         public Sucursal_electrodomestico()
         {
             sucursales = new Sucursales();
@@ -21,13 +22,22 @@ namespace StockWebEduardoVasquez.Modelo
         {
             this.id = id;
             this.sucursales = sucursales;
-            this.electrodomesticos = electrodomesticos;
+            this.Electrodomesticos = electrodomesticos;
             this.cantidad = cantidad;
         }
 
         public int Id { get => id; set => id = value; }
         public int Cantidad { get => cantidad; set => cantidad = value; }
-        internal Sucursales Sucursales { get => sucursales; set => sucursales = value; }
-        internal Electrodomestico Electrodomesticos { get => electrodomesticos; set => electrodomesticos = value; }
+        public Sucursales Sucursales 
+        { 
+            get => sucursales;
+            set => sucursales = value; 
+        }
+        public Electrodomestico Electrodomesticos { get => electrodomesticos; set => electrodomesticos = value; }
+
+        private string GetDebuggerDisplay()
+        {
+            return ToString();
+        }
     }
 }

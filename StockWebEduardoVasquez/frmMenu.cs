@@ -9,6 +9,7 @@ using StockWebEduardoVasquez.Formularios.Categrorias;
 using StockWebEduardoVasquez.Formularios.Sucursal;
 using StockWebEduardoVasquez.Formularios.Usuario;
 using StockWebEduardoVasquez.Formularios.Electrodomesticos;
+using StockWebEduardoVasquez.Formularios.SucursalElectrodomestico;
 
 namespace StockWebEduardoVasquez
 {
@@ -46,6 +47,12 @@ namespace StockWebEduardoVasquez
         {
             frmViewElectrodomestico frm_viewElectrodomestico = new frmViewElectrodomestico();
             frm_viewElectrodomestico.Show();
+        }
+
+        private void btnSucursalElectrodomestico_Click(object sender, EventArgs e)
+        {
+            frmViewSucursalElectrodomestico frm_ViewSucursalElectrodomestico = new frmViewSucursalElectrodomestico();
+            frm_ViewSucursalElectrodomestico.Show();
         }
     }
 }

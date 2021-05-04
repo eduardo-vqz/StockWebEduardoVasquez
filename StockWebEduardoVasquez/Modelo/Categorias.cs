@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StockWebEduardoVasquez.Modelo
 {
-    class Categorias
+    public class Categorias
     {
         private int id;
         private string categoria;

@@ -55,3 +55,6 @@ C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasq
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Formularios.Usuario.frmUpdateUser.resources
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.frmMenu.resources
 C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Formularios.Electrodomesticos.frmViewElectrodomestico.resources
+C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Formularios.SucursalElectrodomestico.frmAddSucursalElectrodomestico.resources
+C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Formularios.SucursalElectrodomestico.frmUpdateSucursalElectrodomestico.resources
+C:\Users\eduar\Desktop\proyectos\Cass\stockElectrodomesticos\StockWebEduardoVasquez\obj\Debug\netcoreapp3.1\StockWebEduardoVasquez.Formularios.SucursalElectrodomestico.frmViewSucursalElectrodomestico.resources

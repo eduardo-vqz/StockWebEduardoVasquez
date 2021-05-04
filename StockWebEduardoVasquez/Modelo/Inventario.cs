@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StockWebEduardoVasquez.Modelo
 {
-    class Inventario
+    public class Inventario
     {
         private int id;
         private Sucursal_electrodomestico sucursal_electrodomestico;
@@ -27,6 +27,6 @@ namespace StockWebEduardoVasquez.Modelo
         public int Id { get => id; set => id = value; }
         public int Cantidad_movimiento { get => cantidad_movimiento; set => cantidad_movimiento = value; }
         public string Movimiento { get => movimiento; set => movimiento = value; }
-        internal Sucursal_electrodomestico Sucursal_electrodomestico { get => sucursal_electrodomestico; set => sucursal_electrodomestico = value; }
+        public Sucursal_electrodomestico Sucursal_electrodomestico { get => sucursal_electrodomestico; set => sucursal_electrodomestico = value; }
     }
 }

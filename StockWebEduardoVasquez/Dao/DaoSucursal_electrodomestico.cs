@@ -7,9 +7,9 @@ namespace StockWebEduardoVasquez.Dao
 {
     interface DaoSucursal_electrodomestico
     {
-        void AddCategoria(Sucursal_electrodomestico sucursal_electrodomestico);
-        void UpdateCategoria(Sucursal_electrodomestico sucursal_electrodomestico);
-        void DeleteCategoria(Sucursal_electrodomestico sucursal_electrodomestico);
+        void AddSucursal_electrodomestico(Sucursal_electrodomestico sucursal_electrodomestico);
+        void UpdateSucursal_electrodomestico(Sucursal_electrodomestico sucursal_electrodomestico);
+        void DeleteSucursal_electrodomestico(Sucursal_electrodomestico sucursal_electrodomestico);
 
         List<Sucursal_electrodomestico> allSucursal_electrodomestico();
     }

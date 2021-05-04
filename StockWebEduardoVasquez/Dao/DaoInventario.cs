@@ -7,9 +7,9 @@ namespace StockWebEduardoVasquez.Dao
 {
     interface DaoInventario
     {
-        void AddCategoria(Inventario inventario);
-        void UpdateCategoria(Inventario inventario);
-        void DeleteCategoria(Inventario inventario);
+        void AddInventario(Inventario inventario);
+        void UpdateInventario(Inventario inventario);
+        void DeleteInventario(Inventario inventario);
 
         List<Inventario> allInventario();
         List<Inventario> allInventario(string Inventario);
