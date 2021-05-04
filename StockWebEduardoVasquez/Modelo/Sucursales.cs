@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StockWebEduardoVasquez.Modelo
 {
-    class Sucursales
+    public class Sucursales
     {
         private int id;
         private string sucursal;

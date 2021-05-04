@@ -51,6 +51,7 @@ namespace StockWebEduardoVasquez.Dao
                 SqlDataReader reader = comand.ExecuteReader();
                 while (reader.Read())
                 {
+                    Categorias categorias = new Categorias();
                     Electrodomestico electrodomestico = new Electrodomestico();
                     electrodomestico.Id                         = reader.GetInt32("id");
                     electrodomestico.Nombre_electrodomestico    = reader.GetString("nombre_electrodomestico");

@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <Folder Include="Formularios\Inventario\" />
-    <Folder Include="Formularios\SucursalElectrodomestico\" />
     <Folder Include="Src\" />
   </ItemGroup>
 
